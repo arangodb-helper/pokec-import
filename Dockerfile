@@ -7,5 +7,4 @@ RUN apt-get update && \
 
 ADD profiles.json.xz /profiles.json.xz
 ADD relations.tsv.xz /relations.tsv.xz
-ADD import.sh   /import.sh
-
+ADD import.sh /import.sh
